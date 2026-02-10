@@ -93,14 +93,18 @@ app/src/main/java/com/privilegemanager/pro/
 
 ### Installation Steps
 
-1. **Clone or Create Project**
+1. **Clone the Repository**
    ```bash
-   # In Android Studio: File > New > New Project
-   # Select "Empty Activity" (Compose)
-   # Package: com.privilegemanager.pro
-   # Language: Kotlin
-   # Minimum SDK: API 26
+   # HTTPS
+   git clone https://github.com/devious148879/Shizuku-Manager-Pro.git
+
+   # SSH
+   git clone git@github.com:devious148879/Shizuku-Manager-Pro.git
+
+   # GitHub CLI
+   gh repo clone devious148879/Shizuku-Manager-Pro
    ```
+   Then open the project in Android Studio.
 
 2. **Copy All Files**
    - Copy all provided `.kt` files to their respective packages
@@ -435,8 +439,8 @@ pm list packages | grep -i google
 ## 🤝 Contributing
 
 ### How to Contribute
-1. Fork the repository
-2. Create feature branch
+1. Fork the repository at [github.com/devious148879/Shizuku-Manager-Pro](https://github.com/devious148879/Shizuku-Manager-Pro)
+2. Create feature branch (`git checkout -b feature/my-feature`)
 3. Make changes
 4. Test thoroughly
 5. Submit pull request
@@ -525,9 +529,16 @@ For issues or questions:
 ## ⚡ Quick Start Commands
 
 ```bash
-# Clone project
-git clone <repository-url>
-cd PrivilegeManagerPro
+# Clone project (HTTPS)
+git clone https://github.com/devious148879/Shizuku-Manager-Pro.git
+
+# Clone project (SSH)
+git clone git@github.com:devious148879/Shizuku-Manager-Pro.git
+
+# Clone project (GitHub CLI)
+gh repo clone devious148879/Shizuku-Manager-Pro
+
+cd Shizuku-Manager-Pro
 
 # Build
 ./gradlew assembleDebug
